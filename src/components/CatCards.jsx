@@ -1,7 +1,7 @@
 import React from "react";
-import LokiAvatar from "../images/LokiAvatarVariation1Bigger.png";
-import LunaAvatar from "../images/LunaAvatarVariation1Bigger.png";
-import CharlieAvatar from "../images/CharlieAvatarVariation1Bigger.png";
+import MiloAvatar from "../images/MiloAvatarVariation1Bigger.png";
+import OliverAvatar from "../images/OliverAvatarVariation1Bigger.png";
+import WhiskeyAvatar from "../images/WhiskeyAvatarVariation1Bigger.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
@@ -15,9 +15,9 @@ const CatCards = () => {
       <Row>
         <Col>
           <Card style={{ width: "25rem" }}>
-            <Card.Img variant="top" src={LunaAvatar} />
+            <Card.Img variant="top" src={WhiskeyAvatar} />
             <Card.Body>
-              <Card.Title>Luna</Card.Title>
+              <Card.Title>Whiskey</Card.Title>
               <Card.Text>
               </Card.Text>
               <Button variant="primary">Rescue Me</Button>
@@ -29,9 +29,9 @@ const CatCards = () => {
         </Col>
         <Col>
           <Card style={{ width: "25rem" }}>
-            <Card.Img variant="top" src={LokiAvatar} />
+            <Card.Img variant="top" src={MiloAvatar} />
             <Card.Body>
-              <Card.Title>Loki</Card.Title>
+              <Card.Title>Milo</Card.Title>
               <Card.Text>
               </Card.Text>
               <Button variant="primary">Rescue Me</Button>
@@ -43,9 +43,9 @@ const CatCards = () => {
         </Col>
         <Col>
           <Card style={{ width: "25rem" }}>
-            <Card.Img variant="top" src={CharlieAvatar} />
+            <Card.Img variant="top" src={OliverAvatar} />
             <Card.Body>
-              <Card.Title>Charlie</Card.Title>
+              <Card.Title>Oliver</Card.Title>
               <Card.Text>
               </Card.Text>
               <Button variant="primary">Rescue Me</Button>
