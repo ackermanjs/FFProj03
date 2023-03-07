@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import HeroSection from './pages/HeroSection';
 import BodyMid from './pages/BodyMid'
 import Body from "./pages/Body";
+import Footer from "./components/Footer";
 
 // import Footer from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
       <HeroSection />
       <BodyMid />
       <Body />
+      <Footer />
     </div>
   );
 }

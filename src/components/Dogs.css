@@ -1,0 +1,19 @@
+.dogcard-section {
+    position: relative;
+    background-color: #aed9e0;
+    background-image: url(../images/Proj.03\ DogCards.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .dogcard-text-container {
+    position: absolute;
+    bottom: 35rem;
+    right: 10rem;
+    color: #5e6472;
+  }
+  .dogcard-title {
+    font-size: 52px;
+  }
+  
