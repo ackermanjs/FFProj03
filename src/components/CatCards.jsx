@@ -14,7 +14,7 @@ const CatCards = () => {
 <Container>
       <Row>
         <Col>
-          <Card style={{ width: "25rem" }}>
+          <Card className="shadow-lg" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={WhiskeyAvatar} />
             <Card.Body>
               <Card.Title>Whiskey</Card.Title>
@@ -23,12 +23,12 @@ const CatCards = () => {
               <Button variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
-          <small className="text-muted">Status: Very Good Boy</small>
+          <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "25rem" }}>
+          <Card className="shadow-lg" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={MiloAvatar} />
             <Card.Body>
               <Card.Title>Milo</Card.Title>
@@ -37,12 +37,12 @@ const CatCards = () => {
               <Button variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
-          <small className="text-muted">Status: Very Good Boy</small>
+          <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "25rem" }}>
+          <Card className="shadow-lg" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={OliverAvatar} />
             <Card.Body>
               <Card.Title>Oliver</Card.Title>
@@ -50,7 +50,7 @@ const CatCards = () => {
               </Card.Text>
               <Button variant="primary">Rescue Me</Button>
             </Card.Body><Card.Footer>
-          <small className="text-muted">Status: Very Good Boy</small>
+          <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>
           </Card>
         </Col>

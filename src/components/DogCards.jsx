@@ -14,7 +14,7 @@ const DogCards = () => {
     <Container>
       <Row>
         <Col>
-          <Card style={{ width: "25rem" }}>
+          <Card className="shadow-lg" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={LunaAvatar} />
             <Card.Body>
               <Card.Title>Luna</Card.Title>
@@ -23,12 +23,12 @@ const DogCards = () => {
               <Button variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
-          <small className="text-muted">Status: Very Good Boy</small>
+          <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "25rem" }}>
+          <Card className="shadow-lg" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={LokiAvatar} />
             <Card.Body>
               <Card.Title>Loki</Card.Title>
@@ -37,12 +37,12 @@ const DogCards = () => {
               <Button variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
-          <small className="text-muted">Status: Very Good Boy</small>
+          <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "25rem" }}>
+          <Card className="shadow-lg" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={CharlieAvatar} />
             <Card.Body>
               <Card.Title>Charlie</Card.Title>
@@ -50,7 +50,7 @@ const DogCards = () => {
               </Card.Text>
               <Button variant="primary">Rescue Me</Button>
             </Card.Body><Card.Footer>
-          <small className="text-muted">Status: Very Good Boy</small>
+          <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>
           </Card>
         </Col>
