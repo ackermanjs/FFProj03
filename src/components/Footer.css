@@ -5,9 +5,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 540px;
     padding-top: .5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
   }
   .hero-text-container {
     position: absolute;
