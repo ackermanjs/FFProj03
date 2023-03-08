@@ -19,6 +19,7 @@ With the pet adoption app, I feel confident that I can find my perfect furry com
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/110504360/223729649-9846eb23-e0b7-4ccd-a14c-9052b69587ae.png)
 
 
 ## Installation
