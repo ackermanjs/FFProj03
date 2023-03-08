@@ -1,0 +1,24 @@
+.dogcardopened-section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #aed9e0;
+    background-image: url(../images/Proj.03\ DogCardSingleDisplay.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+  }
+  /* .dogcardopened-text-container {
+    position: absolute;
+    bottom: 35rem;
+    right: 10rem;
+    color: #5e6472;
+  }
+  .dogcardopened-title {
+    font-size: 52px;
+  }
+   */

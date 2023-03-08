@@ -1,4 +1,5 @@
 # furever-friends
+## Group Project 03
 
 ## Description
 As a potential pet owner, I want to use a pet adoption app to find my perfect furry companion.
@@ -8,6 +9,8 @@ If I find a pet that I'm interested in adopting, I can contact the adoption agen
 Once I've found the perfect pet, I can complete the adoption process through the app. This includes filling out an adoption application, submitting references, and paying any adoption fees.
 Finally, I can use the app to stay connected with the adoption agency and receive updates about my new pet, including information about training, health care, and socialization opportunities.
 With the pet adoption app, I feel confident that I can find my perfect furry companion and provide them with a loving forever home.
+# Introduction
+This is the final group project. Our project is a Pet Adoption app that will allow users to browse a selection of pets that are in need of rescue.
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -17,13 +20,22 @@ With the pet adoption app, I feel confident that I can find my perfect furry com
 
 
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Functionality
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/110504360/223729649-9846eb23-e0b7-4ccd-a14c-9052b69587ae.png)
 
+# Technology Used
+- HTML
+- CSS
+- Javascript
+- React
 
 ## Installation
 This application is entirely online.  Just follow the [link](https://fureverfriends.herokuapp.com/) and start adopting today.
+# Author
+This app was created as a collaboration between Jeffrey Ackerman, Rhonda, Alec and Austin. The group worked together to accomplish the final product, which required some overlap, however the initial assignments had Jeffrey and Austin working on Front-End and Alec and Rhonda working on the Back-End.
+<br>
 
 ## Usage
 Go to the [website](https://petfeed.herokuapp.com/) and create a user, then find your new forever friend.
