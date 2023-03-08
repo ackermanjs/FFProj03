@@ -15,6 +15,9 @@ import Header from "./components/Header";
 import HeroSection from './pages/HeroSection';
 import BodyMid from './pages/BodyMid'
 import Body from "./pages/Body";
+import Footer from "./components/Footer";
+import Dogs from './pages/Dogs';
+import Cats from './pages/Cats';
 
 // import Footer from './components/Footer';
 const httpLink = createHttpLink({
@@ -46,8 +49,11 @@ function App() {
       <ApolloProvider client={client}>
       <Header />
       <HeroSection />
+      <Dogs />
+      <Cats />
       <BodyMid />
       <Body />
+      <Footer />
       </ApolloProvider>
     </div>
   );
