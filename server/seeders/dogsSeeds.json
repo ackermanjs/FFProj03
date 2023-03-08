@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Max",
+        "breed": "Labrador Retriever",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Teddy",
+        "breed": "Goldendoodle",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Bailey",
+        "breed": "Golden Retriever",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Cooper",
+        "breed": "French Bulldog",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Lucy",
+        "breed": "Labradoodle",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Bear",
+        "breed": "German Shepherd",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Lola",
+        "breed": "Shih Tzu",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Zoe",
+        "breed": "Chihuahua",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Stella",
+        "breed": "Yorkshire Terrier",
+        "age": "2 years old",
+        "sex": "Female"
+    },
+    {
+        "name": "Jasper",
+        "breed": "Cavalier King Charles Spaniel",
+        "age": "2 years old",
+        "sex": "Female"
+    }
+]
