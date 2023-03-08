@@ -8,10 +8,11 @@ import CardGroup from "react-bootstrap/CardGroup";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
+import "../components/DogCards.css";
 
 const DogCards = () => {
   return (
-    <Container>
+    <Container className="dog-card-cont">
       <Row>
         <Col>
           <Card className="shadow-lg" style={{ width: "25rem" }}>
