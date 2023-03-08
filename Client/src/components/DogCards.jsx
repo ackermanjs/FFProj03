@@ -35,7 +35,7 @@ const DogCards = () => {
               <Card.Title>Loki</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button variant="primary"><Card.Link href="/dogcardopened">Rescue Me</Card.Link></Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
