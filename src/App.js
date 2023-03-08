@@ -11,6 +11,8 @@ import Dogs from "./pages/Dogs";
 import Cats from "./pages/Cats";
 import InitialLoad from "./pages/InitialLoad";
 import About from "./pages/About";
+import NewUser from "./pages/NewUser";
+import ReturnUser from "./pages/ReturnUser";
 import {
   BrowserRouter as Router,
   Routes,
@@ -67,6 +69,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/cats" element={<Cats />} />
         <Route path="/dogs" element={<Dogs />} />
+        <Route path="/newuser" element={<NewUser />} />
+        <Route path="/returnuser" element={<ReturnUser />} />
         <Route path="/" element={<InitialLoad />} />
       </Routes>
     </BrowserRouter>

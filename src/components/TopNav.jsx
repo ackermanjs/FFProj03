@@ -13,30 +13,43 @@ import { Fragment } from "react";
 const TopNav = () => {
   return (
     <Fragment>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand href="/">Furever Friends</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <NavLink to="/about"><Nav.Link href="/about">About Us</Nav.Link></NavLink>
-            <NavLink to="/cats"><Nav.Link href="/cats">Cats</Nav.Link></NavLink>
-            <NavLink to="/dogs"><Nav.Link href="/dogs">Dogs</Nav.Link></NavLink>
-          </Nav>
-          <Nav>
-          <Button variant="success">Sign In</Button>{' '}
-          <Button variant="primary">Create an Account</Button>{' '}
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="/">Furever Friends</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <NavLink to="/about">
+                <Nav.Link href="/about">About Us</Nav.Link>
+              </NavLink>
+              <NavLink to="/cats">
+                <Nav.Link href="/cats">Cats</Nav.Link>
+              </NavLink>
+              <NavLink to="/dogs">
+                <Nav.Link href="/dogs">Dogs</Nav.Link>
+              </NavLink>
+            </Nav>
+            <Nav>
+              <NavLink to="/returnuser">
+                <Nav.Link href="/returnuser">
+                  <Button variant="success">Sign In</Button>{" "}
+                </Nav.Link>
+              </NavLink>
+              <NavLink to="/newuser">
+                <Nav.Link href="/newuser">
+                  {" "}
+                  <Button variant="primary">Create an Account</Button>{" "}
+                </Nav.Link>
+              </NavLink>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </Fragment>
   );
 };
 
 export default TopNav;
-
-
 
 /* <div className="topnav-container">
         <div className="topnav-branding">

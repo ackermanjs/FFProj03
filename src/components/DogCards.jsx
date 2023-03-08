@@ -15,7 +15,7 @@ const DogCards = () => {
     <Container className="dog-card-cont">
       <Row>
         <Col>
-          <Card className="shadow-lg" style={{ width: "25rem" }}>
+          <Card className="shadow-lg text-center" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={LunaAvatar} />
             <Card.Body>
               <Card.Title>Luna</Card.Title>
@@ -29,7 +29,7 @@ const DogCards = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="shadow-lg" style={{ width: "25rem" }}>
+          <Card className="shadow-lg text-center" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={LokiAvatar} />
             <Card.Body>
               <Card.Title>Loki</Card.Title>
@@ -43,7 +43,7 @@ const DogCards = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="shadow-lg" style={{ width: "25rem" }}>
+          <Card className="shadow-lg text-center" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={CharlieAvatar} />
             <Card.Body>
               <Card.Title>Charlie</Card.Title>

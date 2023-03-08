@@ -15,7 +15,7 @@ const CatCards = () => {
 <Container className="cat-card-cont">
       <Row>
         <Col>
-          <Card className="shadow-lg" style={{ width: "25rem" }}>
+          <Card className="shadow-lg text-center" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={WhiskeyAvatar} />
             <Card.Body>
               <Card.Title>Whiskey</Card.Title>
@@ -29,7 +29,7 @@ const CatCards = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="shadow-lg" style={{ width: "25rem" }}>
+          <Card className="shadow-lg text-center" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={MiloAvatar} />
             <Card.Body>
               <Card.Title>Milo</Card.Title>
@@ -43,7 +43,7 @@ const CatCards = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="shadow-lg" style={{ width: "25rem" }}>
+          <Card className="shadow-lg text-center" style={{ width: "25rem" }}>
             <Card.Img variant="top" src={OliverAvatar} />
             <Card.Body>
               <Card.Title>Oliver</Card.Title>
