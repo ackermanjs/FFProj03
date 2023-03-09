@@ -28,7 +28,7 @@ const CatCards = () => {
               <Card.Title>Whiskey</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/whiskeycat" variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
@@ -42,7 +42,7 @@ const CatCards = () => {
               <Card.Title>Milo</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/milocat" variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
@@ -56,7 +56,7 @@ const CatCards = () => {
               <Card.Title>Oliver</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/olvercat" variant="primary">Rescue Me</Button>
             </Card.Body><Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>

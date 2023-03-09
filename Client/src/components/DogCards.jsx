@@ -21,7 +21,7 @@ const DogCards = () => {
               <Card.Title>Luna</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/lunadog" variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
@@ -35,7 +35,7 @@ const DogCards = () => {
               <Card.Title>Loki</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/lokidog" variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
@@ -49,7 +49,7 @@ const DogCards = () => {
               <Card.Title>Charlie</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/charliedog" variant="primary">Rescue Me</Button>
             </Card.Body><Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>

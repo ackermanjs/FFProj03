@@ -7,9 +7,9 @@ const Cats = () => {
     <div className="catcard-section">
       <CatCards />
       <div className="catcard-text-container">
-          <h1 className="catcard-title">CATS</h1>
-          <p className="catcard-text"></p>
-        </div>
+        {/* <h1 className="catcard-title">CATS</h1>
+          <p className="catcard-text"></p> */}
+      </div>
     </div>
   );
 };

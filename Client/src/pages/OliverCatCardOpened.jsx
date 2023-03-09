@@ -22,7 +22,7 @@ const OliverCatCardOpened = () => {
         </Card.Text>
         <div className="openedcard-button-box">
           <Button variant="success">Rescue Me</Button>
-          <Button variant="primary">Back to Dogs</Button>
+          <Button href="/cats" variant="primary">Back to Dogs</Button>
         </div>
       </Card.Body>
     </Card>

@@ -86,6 +86,8 @@ const App = () => {
           <Route path="/olivercat" element={<OliverCatCardOpened />} />
           <Route path="/" element={<InitialLoad />} />
         </Routes>
+        <BodyMid />
+        <Body />
         <Footer />
       </BrowserRouter>
     </ApolloProvider>
