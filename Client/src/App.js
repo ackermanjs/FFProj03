@@ -13,6 +13,9 @@ import InitialLoad from "./pages/InitialLoad";
 import About from "./pages/About";
 import NewUser from "./pages/NewUser";
 import ReturnUser from "./pages/ReturnUser";
+import LunaDogCardOpened from "./pages/LunaDogCardOpened";
+import LokiDogCardOpened from "./pages/LokiDogCardOpened";
+import CharlieDogCardOpened from "./pages/CharlieDogCardOpened";
 import {
   BrowserRouter as Router,
   Routes,
@@ -74,6 +77,9 @@ const App = () => {
           <Route path="/returnuser" element={<ReturnUser />} />
           <Route path="/" element={<InitialLoad />} />
         </Routes>
+        <LunaDogCardOpened />
+        <LokiDogCardOpened />
+        <CharlieDogCardOpened />
       </BrowserRouter>
     </ApolloProvider>
   );
