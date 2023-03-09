@@ -16,6 +16,9 @@ import ReturnUser from "./pages/ReturnUser";
 import LunaDogCardOpened from "./pages/LunaDogCardOpened";
 import LokiDogCardOpened from "./pages/LokiDogCardOpened";
 import CharlieDogCardOpened from "./pages/CharlieDogCardOpened";
+import MiloCatCardOpened from "./pages/MiloCatCardOpened";
+import OliverCatCardOpened from "./pages/OliverCatCardOpened";
+import WhiskeyCatCardOpened from "./pages/WhiskeyCatCardOpened";
 import {
   BrowserRouter as Router,
   Routes,
@@ -75,11 +78,15 @@ const App = () => {
           <Route path="/dogs" element={<Dogs />} />
           <Route path="/newuser" element={<NewUser />} />
           <Route path="/returnuser" element={<ReturnUser />} />
+          <Route path="/lunadog" element={<LunaDogCardOpened />} />
+          <Route path="/lokidog" element={<LokiDogCardOpened />} />
+          <Route path="/charliedog" element={<CharlieDogCardOpened />} />
+          <Route path="/whiskeycat" element={<WhiskeyCatCardOpened />} />
+          <Route path="/milocat" element={<MiloCatCardOpened />} />
+          <Route path="/olivercat" element={<OliverCatCardOpened />} />
           <Route path="/" element={<InitialLoad />} />
         </Routes>
-        <LunaDogCardOpened />
-        <LokiDogCardOpened />
-        <CharlieDogCardOpened />
+        <Footer />
       </BrowserRouter>
     </ApolloProvider>
   );

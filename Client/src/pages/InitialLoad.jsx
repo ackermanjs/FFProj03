@@ -1,19 +1,16 @@
-import React from 'react'
+import React from "react";
 import HeroSection from "../pages/HeroSection";
 import BodyMid from "../pages/BodyMid";
 import Body from "../pages/Body";
-import Footer from "../components/Footer";
 
 const InitialLoad = () => {
   return (
-<div>
-    <HeroSection />
-    <BodyMid />
-    <Body />
-    <Footer />
-</div>
-
+    <div>
+      <HeroSection />
+      <BodyMid />
+      <Body />
+    </div>
   );
-}
+};
 
-export default InitialLoad
+export default InitialLoad;
