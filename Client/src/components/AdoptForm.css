@@ -1,22 +1,23 @@
-.catcardopened-section {
+.adoptform-section {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   background-color: #aed9e0;
-  background-image: url(../images/Proj.03\ CatCardSingleDisplay.png);
+  background-image: url(../images/Proj.03\ Adopt.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
-/* .catcardopened-text-container {
+  .newuser-text-container {
     position: absolute;
-    bottom: 35rem;
-    right: 10rem;
-    color: #5e6472;
+    bottom: 32rem;
+    left: 8rem;
+    color: #ffa69e;
   }
-  .catcardopened-title {
-    font-size: 52px;
-  } */
+  .newuser-title {
+    font-size: 48px;
+  }
+  

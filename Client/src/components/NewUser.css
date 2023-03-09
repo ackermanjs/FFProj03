@@ -1,12 +1,16 @@
 .newuser-section {
-    position: relative;
-    background-color: #5e6472;
-    background-image: url(../images/Proj.03\ User\ SignUp.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #aed9e0;
+  background-image: url(../images/Proj.03\ User\ SignUp.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
   .newuser-text-container {
     position: absolute;
     bottom: 32rem;

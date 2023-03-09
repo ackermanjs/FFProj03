@@ -20,7 +20,7 @@ const LokiCardOpened = () => {
           Some quick info about this beautiful creature!
         </Card.Text>
         <div className="openedcard-button-box">
-          <Button variant="success">Rescue Me</Button>
+          <Button href="/adoptform" variant="success">Rescue Me</Button>
           <Button href="/dogs" variant="primary">Back to Dogs</Button>
         </div>
       </Card.Body>

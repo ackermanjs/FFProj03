@@ -1,21 +1,20 @@
 .about-section {
-    /* position: relative; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5e6472;
-    background-image: url(../images/Proj.03\ AboutUs.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  
-  .about-title {
-    font-size: 48px;
-  }
-  .about-text {
-    width: 50rem;
-    font-size: 32px;
-  }
-  
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e6472;
+  background-image: url(../images/Proj.03\ AboutUs.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.about-title {
+  font-size: 48px;
+}
+.about-text {
+  width: 50rem;
+  font-size: 32px;
+}

@@ -20,8 +20,8 @@ const MiloCatCardOpened = () => {
           Some quick info about this beautiful creature!
         </Card.Text>
         <div className="openedcard-button-box">
-          <Button variant="success">Rescue Me</Button>
-          <Button href="/cats" variant="primary">Back to Dogs</Button>
+          <Button href="/adoptform" variant="success">Rescue Me</Button>
+          <Button href="/cats" variant="primary">Back to Cats</Button>
         </div>
       </Card.Body>
     </Card>

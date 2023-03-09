@@ -56,7 +56,7 @@ const CatCards = () => {
               <Card.Title>Oliver</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button href="/olvercat" variant="primary">Rescue Me</Button>
+              <Button href="/olivercat" variant="primary">Rescue Me</Button>
             </Card.Body><Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>

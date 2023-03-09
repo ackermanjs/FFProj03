@@ -19,6 +19,7 @@ import CharlieDogCardOpened from "./pages/CharlieDogCardOpened";
 import MiloCatCardOpened from "./pages/MiloCatCardOpened";
 import OliverCatCardOpened from "./pages/OliverCatCardOpened";
 import WhiskeyCatCardOpened from "./pages/WhiskeyCatCardOpened";
+import AdoptForm from "./pages/AdoptForm";
 import {
   BrowserRouter as Router,
   Routes,
@@ -84,6 +85,7 @@ const App = () => {
           <Route path="/whiskeycat" element={<WhiskeyCatCardOpened />} />
           <Route path="/milocat" element={<MiloCatCardOpened />} />
           <Route path="/olivercat" element={<OliverCatCardOpened />} />
+          <Route path="/adoptform" element={<AdoptForm />} />
           <Route path="/" element={<InitialLoad />} />
         </Routes>
         <BodyMid />
