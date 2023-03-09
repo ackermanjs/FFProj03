@@ -5,6 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 import "./TopNav.css";
 import { NavLink } from "react-router-dom";
+import BrandLogo from "../images/pet-house.png";
 
 // import NavLink from "react";
 // import {Link}from "react-router-dom"
@@ -13,6 +14,13 @@ const TopNav = () => {
   return (
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
+      <img
+              alt=""
+              src={BrandLogo}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
         <Navbar.Brand href="/">Furever Friends</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
