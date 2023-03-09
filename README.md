@@ -20,7 +20,8 @@ This is the final group project. Our project is a Pet Adoption app that will all
 
 
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Functionality
+# Tests
+This code is still being debugged. 
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/110504360/223729649-9846eb23-e0b7-4ccd-a14c-9052b69587ae.png)
