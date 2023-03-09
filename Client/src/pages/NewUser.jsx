@@ -44,7 +44,7 @@ const NewUser = () => {
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
-              <Button variant="success" type="submit">
+              <Button href="/loggedin" variant="success" type="submit">
                 Create Account
               </Button>
               <Button href="/" variant="secondary" type="submit">

@@ -1,6 +1,6 @@
-import React, { useState, } from "react";
-import { useQuery, useMutation} from "@apollo/client";
-import { QUERY_ME } from "../utils/queries";
+// import React, { useState, } from "react";
+// import { useQuery, useMutation} from "@apollo/client";
+// import { QUERY_ME } from "../utils/queries";
 import MiloAvatar from "../images/MiloAvatarVariation1Bigger.png";
 import OliverAvatar from "../images/OliverAvatarVariation1Bigger.png";
 import WhiskeyAvatar from "../images/WhiskeyAvatarVariation1Bigger.png";
@@ -13,10 +13,10 @@ import Container from "react-bootstrap/Container";
 import "../components/CatCards.css";
 
 const CatCards = () => {
-  const [cats, setCats] = useState([]);
-  const {loading, data} = useQuery(QUERY_ME);
-  const userData =data?.me;
-  // console.log(userData);
+//   const [cats, setCats] = useState([]);
+//   const {loading, data} = useQuery(QUERY_ME);
+//   const userData =data?.me;
+//   // console.log(userData);
 
   return (
 <Container className="cat-card-cont">

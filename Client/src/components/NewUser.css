@@ -5,7 +5,7 @@
   justify-content: center;
   align-content: center;
   background-color: #aed9e0;
-  background-image: url(../images/Proj.03\ User\ SignUp.png);
+  /* background-image: url(../images/Proj.03\ User\ SignUp.png); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,4 +20,15 @@
   .newuser-title {
     font-size: 48px;
   }
-  
+   /* Full size this width and above (until I hit the other breakpoints) */
+   @media only screen and (min-width: 391px) {
+    .newuser-section {
+      background-image: url(../images/Proj.03\ User\ SignUp.png);
+    }
+  }
+  /* iPhone 12 Pro Mobile 390 x 844 */
+  @media only screen and (max-width: 390px) {
+    .newuser-section {
+      background-image: url(../images/Responsive-iPhone12pro/390\ x\ 844\ Sign\ Up.png)
+    }
+  }

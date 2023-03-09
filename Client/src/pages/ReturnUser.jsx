@@ -28,7 +28,7 @@ const ReturnUser = () => {
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
-              <Button variant="success" type="submit">
+              <Button href='loggedin' variant="success" type="submit">
                 Sign In
               </Button>
               <Button href="/" variant="secondary" type="submit">
@@ -36,7 +36,7 @@ const ReturnUser = () => {
               </Button>
             </Form>
             {/* <div className="newuser-container"><SignUp /></div> */}
-            <div className="newuser-text-container">
+            <div href="loggedin" className="newuser-text-container">
               <h1 className="newuser-title"></h1>
             </div>
           </Card.Text>
