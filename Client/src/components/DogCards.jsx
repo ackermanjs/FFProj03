@@ -4,7 +4,7 @@ import LunaAvatar from "../images/LunaAvatarVariation1Bigger.png";
 import CharlieAvatar from "../images/CharlieAvatarVariation1Bigger.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
+// import CardGroup from "react-bootstrap/CardGroup";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
@@ -35,7 +35,7 @@ const DogCards = () => {
               <Card.Title>Loki</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary"><Card.Link href="/dogcardopened">Rescue Me</Card.Link></Button>
+              <Button variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>

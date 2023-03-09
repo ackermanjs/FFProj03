@@ -14,11 +14,11 @@
   }
   .dogcard-text-container {
     position: absolute;
-    bottom: 35rem;
-    right: 10rem;
-    color: #5e6472;
+    bottom: 10rem;
+    right: 54rem;
+    color: #000000;
   }
   .dogcard-title {
-    font-size: 52px;
+    font-size: 84px;
   }
   

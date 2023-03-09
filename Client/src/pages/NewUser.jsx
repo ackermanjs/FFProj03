@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../components/NewUser.css";
 // import SignUp from "./SignUp";
 import Button from 'react-bootstrap/Button';
@@ -6,10 +6,16 @@ import Form from 'react-bootstrap/Form';
 
 
 const NewUser = () => {
+    const [userFormData, setData] = useState({first_name:"", last_name:"", email:"", password:""})
+    const handleFormSubmit = async(event) =>{
+      const {name, value} = event.target; 
+      console.log(name, value);
+    }
+
   return (
 <div>
       <div className="newuser-section">
-      <Form>
+      <Form onSubmit={handleFormSubmit}>
       <Form.Group className="mb-3" controlId="formFirstName">
         <Form.Label>First Name</Form.Label>
         <Form.Control type="firstName" placeholder="Enter First Name" />

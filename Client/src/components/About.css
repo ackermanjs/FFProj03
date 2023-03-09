@@ -1,5 +1,8 @@
 .about-section {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #5e6472;
     background-image: url(../images/Proj.03\ AboutUs.png);
     background-position: center;
@@ -7,13 +10,12 @@
     background-repeat: no-repeat;
     height: 100vh;
   }
-  .about-text-container {
-    position: absolute;
-    bottom: 32rem;
-    left: 8rem;
-    color: #ffa69e;
-  }
+  
   .about-title {
     font-size: 48px;
+  }
+  .about-text {
+    width: 50rem;
+    font-size: 32px;
   }
   
