@@ -36,9 +36,9 @@ const resolvers = {
 
       return { token, user };
     },
-    saveAnimal: async (parent, { animalSpecies, animalBreed, animalName, animalAge, animalSex}, context) => {
+    saveAnimal: async (parent, { species, breed, name, age, sex}, context) => {
       if (context.user) {
-        const animal = await Animal.create({animalSpecies, animalBreed, animalName, animalAge, animalSex});
+        const animal = await Animal.create({species, breed, name, age, sex});
 
         await User.findOneAndUpdate(
           { _id: context.user._id },
