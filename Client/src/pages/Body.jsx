@@ -5,7 +5,6 @@ const Body = () => {
   return (
     <div>
       <div className="body-section">
-        <div className="body-container"></div>
         <div className="body-text-container">
         <h1 className="body-title"></h1>
       </div>

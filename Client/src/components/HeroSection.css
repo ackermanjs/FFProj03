@@ -1,7 +1,7 @@
 .hero-section {
   position: relative;
   background-color: #aed9e0;
-  background-image: url(../images/Proj.03\ HeroVariation.png);
+  /* background-image: url(../images/Proj.03\ HeroVariation.png); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,9 +10,21 @@
 .hero-text-container {
   position: absolute;
   bottom: 35rem;
-  right: 10rem;
-  color: #5e6472;
+  right: 20rem;
+  color: #000000;
 }
 .hero-title {
   font-size: 52px;
+}
+/* Full size this width and above (until I hit the other breakpoints) */
+@media only screen and (min-width: 391px) {
+  .hero-section {
+    background-image: url(../images/Proj.03\ HeroVariation.png);
+  }
+}
+/* iPhone 12 Pro Mobile 390 x 844 */
+@media only screen and (max-width: 390px) {
+  .hero-section {
+    background-image: url(../images/Responsive-iPhone12pro/390\ x\ 844\ Hero.png)
+  }
 }

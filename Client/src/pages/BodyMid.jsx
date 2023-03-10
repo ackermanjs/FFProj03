@@ -5,7 +5,6 @@ const BodyMid = () => {
   return (
     <div>
       <div className="bodymid-section">
-        <div className="bodymid-container"></div>
         <div className="bodymid-text-container">
           <h1 className="bodymid-title"></h1>
         </div>

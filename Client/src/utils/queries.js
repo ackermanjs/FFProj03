@@ -50,8 +50,9 @@ export const QUERY_ME = gql`
       _id
       username
       email
-      animal
-      savedAnimal
+      savedAnimal {
+        _id
+      }
     }
   }
 `;

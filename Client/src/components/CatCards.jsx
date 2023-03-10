@@ -1,16 +1,23 @@
-import React from "react";
+// import React, { useState, } from "react";
+// import { useQuery, useMutation} from "@apollo/client";
+// import { QUERY_ME } from "../utils/queries";
 import MiloAvatar from "../images/MiloAvatarVariation1Bigger.png";
 import OliverAvatar from "../images/OliverAvatarVariation1Bigger.png";
 import WhiskeyAvatar from "../images/WhiskeyAvatarVariation1Bigger.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
+// import CardGroup from "react-bootstrap/CardGroup";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import "../components/CatCards.css";
 
 const CatCards = () => {
+//   const [cats, setCats] = useState([]);
+//   const {loading, data} = useQuery(QUERY_ME);
+//   const userData =data?.me;
+//   // console.log(userData);
+
   return (
 <Container className="cat-card-cont">
       <Row>
@@ -21,7 +28,7 @@ const CatCards = () => {
               <Card.Title>Whiskey</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/whiskeycat" variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
@@ -35,7 +42,7 @@ const CatCards = () => {
               <Card.Title>Milo</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/milocat" variant="primary">Rescue Me</Button>
             </Card.Body>
             <Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
@@ -49,7 +56,7 @@ const CatCards = () => {
               <Card.Title>Oliver</Card.Title>
               <Card.Text>
               </Card.Text>
-              <Button variant="primary">Rescue Me</Button>
+              <Button href="/olivercat" variant="primary">Rescue Me</Button>
             </Card.Body><Card.Footer>
           <small className="text-muted">Status: Ready for Adoption</small>
         </Card.Footer>

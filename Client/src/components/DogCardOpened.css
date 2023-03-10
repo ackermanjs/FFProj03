@@ -9,8 +9,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1920px;
-    height: 1080px;
+    height: 100vh;
   }
   /* .dogcardopened-text-container {
     position: absolute;
@@ -22,3 +21,15 @@
     font-size: 52px;
   }
    */
+     /* Full size this width and above (until I hit the other breakpoints) */
+  @media only screen and (min-width: 391px) {
+    .dogcardopened-section {
+      background-image: url(../images/Proj.03\ DogCardSingleDisplay.png);
+    }
+  }
+  /* iPhone 12 Pro Mobile 390 x 844 */
+  @media only screen and (max-width: 390px) {
+    .dogcardopened-section {
+      background-image: url(../images/Responsive-iPhone12pro/390\ x\ 844\ Dog\ Single.png)
+    }
+  }
