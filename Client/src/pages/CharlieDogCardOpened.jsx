@@ -7,7 +7,7 @@ import CharlieAvatar from "../images/CharlieAvatarVariation1Bigger.png";
 const CharlieCardOpened = () => {
   return (
     <div className="dogcardopened-section">
-      <Card className="shadow-lg" style={{ width: "30rem" }}>
+      <Card className="shadow-lg" style={{ width: "20rem" }}>
         <Card.Img variant="top" src={CharlieAvatar} />
         <Card.Body>
           <br></br>
@@ -19,7 +19,7 @@ const CharlieCardOpened = () => {
             <b>Breed:</b> Certified Good Girl
           </Card.Title>
           <Card.Title>
-            <b>Age:</b> 2 Years Old
+            <b>Age:</b> 8 Months Old
           </Card.Title>
           <Card.Text>Some quick info about this beautiful creature!</Card.Text>
           <div className="openedcard-button-box">

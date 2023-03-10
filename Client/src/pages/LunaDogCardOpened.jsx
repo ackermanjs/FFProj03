@@ -8,7 +8,7 @@ const LunaDogCardOpened = () => {
   return (
     <div className="dogcardopened-section">
       
-      <Card className="shadow-lg" style={{ width: '30rem' }}>
+      <Card className="shadow-lg" style={{ width: '20rem' }}>
       <Card.Img variant="top" src={LunaAvatar} />
       <Card.Body>
         <br></br>

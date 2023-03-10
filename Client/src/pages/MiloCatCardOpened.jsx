@@ -8,7 +8,7 @@ const MiloCatCardOpened = () => {
   return (
     <div className="catcardopened-section">
       
-      <Card className="shadow-lg" style={{ width: '30rem' }}>
+      <Card className="shadow-lg" style={{ width: '20rem' }}>
       <Card.Img variant="top" src={MiloAvatar} />
       <Card.Body>
         <br></br>

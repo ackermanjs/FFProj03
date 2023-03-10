@@ -8,14 +8,14 @@ const LokiCardOpened = () => {
   return (
     <div className="dogcardopened-section">
       
-      <Card className="shadow-lg" style={{ width: '30rem' }}>
+      <Card className="shadow-lg" style={{ width: '20rem' }}>
       <Card.Img variant="top" src={LokiAvatar} />
       <Card.Body>
         <br></br>
         <Card.Title>Hey There! Meet: <b>Loki</b></Card.Title>
         <br></br>
         <Card.Title><b>Breed:</b>  Certified Good Boy</Card.Title>
-        <Card.Title><b>Age:</b>  2 Years Old</Card.Title>
+        <Card.Title><b>Age:</b>  3 Years Old</Card.Title>
         <Card.Text>
           Some quick info about this beautiful creature!
         </Card.Text>
