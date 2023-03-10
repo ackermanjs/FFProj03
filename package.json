@@ -4,7 +4,7 @@
   "description": "This is the final group project. Our project is a Pet Adoption app that will allow users to browse a selection of pets that are in need of rescue.",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "cd Client && npm run start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd Client && npm start\"",
     "install": "cd server && npm i && cd ../Client && npm i",
     "seed": "cd server && npm run seed",

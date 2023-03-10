@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, {useState } from "react";
 import "../components/NewUser.css";
 // import SignUp from "./SignUp";
 import Button from "react-bootstrap/Button";
